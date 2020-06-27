@@ -1,1 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+#irarriba {
+    display: none;
+    padding: 20px;
+    background: #4B4A4A;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+#inicioimg {
+    width: 100%;
+    background-size: cover !important;
+    margin: 0px auto;
+    overflow: hidden !important;
+    background: url('../images/stars.jpg');
+    margin-top: -1px !important;
+}
+
+.navbar-custom { 
+    background-color: rgba(192, 209, 233, 0.45) !important; 
+} 
+
+.espacios{
+    padding-left:80px !important;
+}
+
+.espacios2{
+    padding-right:80px !important;
+}
+
+.sinhover{
+    background-color: transparent !important;
+    transition: .5s ease !important;
+    text-decoration: none !important;
+    color:black;
+}
+
+.sinhover:hover{
+   color:#629bde;
+}
+
+.logito{
+    width:350px !important;
+}
+.logote{
+    width:400px !important;
+}
 
