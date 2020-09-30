@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ENG">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylecn.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>CNA 2020</title>
+    <link rel="icon" href="images/satem.png" />
+</head>
+
+<body>
+    <span id="irarriba" class="icon-rocket"></span>
+    <section class="menu" style="width:100%; position: fixed !important; z-index: 20;">
+        <nav style="margin:0px; border-radius: 0px;" class="navbar navbar-inverse navbar-custom">
+            <div style="box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.75);" class="container-fluid navbar-custom">
+                <div class="navbar-header navbar-custom">
+                    <button type="button" class="navbar-toggle navbar-custom" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-custom" id="myNavbar">
+                    <ul class="nav nav-justified navbar-custom">
+                        <li class="sinesp" style="padding:5px; font-size:20px;"><a class="sinhover" href="index.html">¿QUIÉNES SOMOS?</a></li>
+                        <li style="padding:5px; font-size:20px;"><a class="sinhover" href="quasar.html">QUASAR</a></li>
+                        <li class="sinesp2" style="padding:5px; font-size:20px;"><a class="sinhover" href="capsulas.html">CÁPSULAS</a></li>
+                        <li style="padding:5px; font-size:20px;"><a class="sinhover" href="cn.html">CNA 2020</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div id="inicioimg">
+        <div style="margin-top:140px;" class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                    <img class="imagentam" src="images/satem.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style ="background-color: black !important ; width:100%;" class="container">
+        <h1 style="padding-top: 20px;text-align: center; color:white; ">Concurso Nacional de Astronomia 2020</h1>
+        <div class="col-md-12" style="text-align: center; overflow: hidden;padding:30px 40px 30px 40px;">
+            <p style="text-align: justify; color:rgb(150, 141, 141); font-size: 19px;">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <a style="font-size:20px; margin-top: 30px; background-color: #F29505; color: black;" href="#" class="btn">¡REGISTRATE AQUÍ!</a>
+        </div>
+    </div>
+ 
+</body>
+<script>
+    $(document).ready(function() {
+        $("#inicioimg").css({
+            "height": $(window).height() + "px"
+        });
+        $('#irarriba').click(function() {
+            $('body, html').animate({
+                scrollTop: '0px'
+            }, 300);
+        });
+
+        if ($(window).width() > 768) {
+            $('.sinesp').addClass("espacios");
+            $('.sinesp2').addClass("espacios2");
+            $('.imagentam').addClass("logote");
+        } else {
+            $('.sinesp').removeClass("espacios");
+            $('.sinesp2').removeClass("espacios2");
+            $('.imagentam').addClass("logito");
+        }
+
+
+
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 0) {
+                $('#irarriba').slideDown(300);
+                $("#irarriba").css("display", "block");
+            } else {
+                $('#irarriba').slideUp(300);
+                $("#irarriba").css("display", "none");
+            }
+        });
+    });
+
+</script>
+
+
+</html>

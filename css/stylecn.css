@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+#irarriba {
+    display: none;
+    padding: 20px;
+    background: #4B4A4A;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+#inicioimg {
+    width: 100%;
+    background-size: cover !important;
+    margin: 0px auto;
+    overflow: hidden !important;
+    background: url('../images/deep.png');
+    margin-top: -1px !important;
+}
+
+.navbar-custom {
+    background-color: #c0cae3 !important;
+}
+
+.espacios {
+    padding-left: 80px !important;
+}
+
+.espacios2 {
+    padding-right: 80px !important;
+}
+
+.sinhover {
+    background-color: transparent !important;
+    transition: .5s ease !important;
+    text-decoration: none !important;
+    color: black;
+}
+
+.sinhover:hover {
+    color: #629bde;
+}
+
+.logito {
+    width: 350px !important;
+}
+
+.logote {
+    width: 400px !important;
+}
+
+.aumenta{
+    transition: .5s ease !important;
+ }
+ 
+ .aumenta:hover{
+     border: 1px solid white;
+ }
+ .learn-more {
+     font-weight: 900;
+     padding: 1.25rem 2rem;
+     background: #F29505;
+     text-transform: uppercase;
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+     cursor:pointer;
+   }
+ .learn-more:hover{
+     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.377),0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+.btn {
+    text-decoration: none;
+    border: 1px solid #F29505;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btn:hover {
+    box-shadow: 1px 1px 25px 10px white;
+  }
+  
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      white,
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .btn:hover:before {
+    left: 100%;
+  }
