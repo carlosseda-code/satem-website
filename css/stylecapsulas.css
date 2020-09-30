@@ -49,22 +49,10 @@
    color:#629bde;
 }
 
-.aumenta{
-   transition: .5s ease !important;
+.tam{
+    width:410px; margin:auto;
 }
 
-.aumenta:hover{
-    border: 1px solid white;
-}
-.learn-more {
-    font-weight: 900;
-    padding: 1.25rem 2rem;
-    background: #f8f8f8;
-    text-transform: uppercase;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor:pointer;
-  }
-.learn-more:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+.tam2{
+    width:350px; margin:auto;
 }

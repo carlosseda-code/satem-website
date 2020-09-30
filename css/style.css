@@ -26,33 +26,65 @@
     margin-top: -1px !important;
 }
 
-.navbar-custom { 
-    background-color: rgba(192, 209, 233, 0.45) !important; 
-} 
-
-.espacios{
-    padding-left:80px !important;
+.navbar-custom {
+    background-color: #c0cae3 !important;
 }
 
-.espacios2{
-    padding-right:80px !important;
+.espacios {
+    padding-left: 80px !important;
 }
 
-.sinhover{
+.espacios2 {
+    padding-right: 80px !important;
+}
+
+.sinhover {
     background-color: transparent !important;
     transition: .5s ease !important;
     text-decoration: none !important;
-    color:black;
+    color: black;
 }
 
-.sinhover:hover{
-   color:#629bde;
+.sinhover:hover {
+    color: #629bde;
 }
 
-.logito{
-    width:350px !important;
-}
-.logote{
-    width:400px !important;
+.logito {
+    width: 350px !important;
 }
 
+.logote {
+    width: 400px !important;
+}
+
+#lista4 ol {
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+#lista4 ol {
+    margin: 0 0 0 2em;
+}
+
+#lista4 {
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+}
+
+#lista4 > li {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 1em;
+    border-left: 2px solid #CCCCCC;
+    background-color: #f5f5f5;
+}
+
+.single-contact {
+    margin-bottom: 50px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    padding: 5%;
+}
