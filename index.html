@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="ENG">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,7 +16,8 @@
 </head>
 
 <body>
-<section class="menu">
+    <span id="irarriba" class="icon-rocket"></span>
+    <section class="menu" style="width:100%; position: fixed !important; z-index: 10;">
         <nav style="margin:0px; border-radius: 0px;" class="navbar navbar-inverse navbar-custom">
             <div style="box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.75);" class="container-fluid navbar-custom">
                 <div class="navbar-header navbar-custom">
@@ -28,16 +31,15 @@
                     <ul class="nav nav-justified navbar-custom">
                         <li class="sinesp" style="padding:5px; font-size:20px;"><a class="sinhover" href="#">¿QUIÉNES SOMOS?</a></li>
                         <li style="padding:5px; font-size:20px;"><a class="sinhover" href="quasar.html">QUASAR</a></li>
-                        <li style="padding:5px; font-size:20px;"><a class="sinhover" href="#">BIBILIOGRAFÍA</a></li>
-                        <li class="sinesp2" style="padding:5px; font-size:20px;"><a class="sinhover" href="#">CÁPSULAS</a></li>
+                        <li class="sinesp2" style="padding:5px; font-size:20px;"><a class="sinhover" href="capsulas.html">CÁPSULAS</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
-    
-     <div id="inicioimg">
-         <div style="margin-top:140px;" class="container">
+
+    <div id="inicioimg">
+        <div style="margin-top:140px;" class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
                     <img class="imagentam" src="images/satem.png" />
@@ -45,19 +47,83 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div style=" overflow:hidden;margin:80px 0px 80px 0px;" class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img class="imgfade" style="overflow:hidden;width:120%;padding-right: 20px;" src="images/mesa.jpeg">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-md-offset-1 col-lg-7">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 style="overflow:hidden;margin:10px 0px 30px 0px;font-weight: 560; font-size:25px;">“Por la divulgación de la ciencia”</h4>
+                        <p style="font-size: 19px; color:black;">Desde la fundación de la SATEM hemos tenido el objetivo de crear una comunidad apasionada por las ciencias espaciales en México. Divulgar la ciencia, la tecnología y provocar un impacto positivo en la sociedad. Siempre desde el respeto, la inclusión, la honestidad y el pensamiento científico; valores que han permeado en todos y cada uno de nuestros integrantes y eventos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section style="padding-bottom:70px;overflow: hidden;">
+        <h2 style="margin: 10px 0px 60px 0px;text-align:center;">Nuestros objetivos</h2>
+        <div style="width:100%;">
+            <ol id="lista4">
+                <li style="font-size:18px;">Hacer la ciencia accesible a la sociedad.</li>
+                <li style="font-size:18px;">Fomentar la curiosidad para desarrollar el pensamiento científico en las personas y que sigan el camino del aprendizaje con placer y autonomía.</li>
+                <li style="font-size:18px;">Promover y distribuir material relacionado con la ciencia en la actualidad y sus distintas disciplinas.</li>
+                <li style="font-size:18px;">Sembrar el pensamiento científico en niños y jóvenes, a quienes les llegará su turno de generar conocimiento.</li>
+                <li style="font-size:18px;">Generar contenido educativo sin ningún fin de lucro.</li>
+            </ol>
+        </div>
+    </section>
+    <div class="col-md-12" style="text-align: center; overflow: hidden;padding:30px 40px 30px 40px;">
+        <p style="font-size: 19px; color:black; text-align: justify;">SATEM organiza eventos gratuitos para cualquier persona con interés por la astronomía y la ciencia. Los eventos son: Conferencias expositivas donde se transmiten conocimientos sobre distintos objetos del universo, conceptos físicos y otros temas de interés general. Entrevistas con expertos en diversos temas. Talleres con conocimiento gratuito sobre el manejo de telescopios y la astrofotografía. Observaciones astronómicas donde proporcionamos telescopios. Campamentos astronómicos en los que llevamos a gente apasionada por la astronomía a lugares con menos contaminación lumínica. Además, interactuamos con nuestra comunidad por medio de nuestras redes sociales y revista científica llamada Quasar.
+        </p>
+    </div>
     
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="margin:40px 0px;" class="text-center">
+                        <h2>Redes Sociales</h2>
+                        <p class="line"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6" style="width:33.33%;">
+                    <div class="single-contact text-center">
+                        <a style="text-decoration: none;" href="https://www.facebook.com/SociedadAstronomicadelTecnologicodeMonterrey" target="_blank"><img style="width:75px;" src="images/fb.png" /></a>
+                        <a style="text-decoration: none; color:black;" href="https://www.facebook.com/SociedadAstronomicadelTecnologicodeMonterrey" target="_blank"><p style="padding-top:10px;">Sociedad Astronómica del Tecnológico de Monterrey</p></a> 
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" style="width:33.33%;">
+                    <div class="single-contact text-center">
+                        <a style="text-decoration: none;" href="https://www.youtube.com/channel/UCONSebR27qyUV0tkzd0xexw" target="_blank"><img style="width:100px;" src="images/yt.png" /></a>
+                        <a style="text-decoration: none; color:black;" href="https://www.youtube.com/channel/UCONSebR27qyUV0tkzd0xexw" target="_blank"><p style="padding-top:10px;">SATEM ITESM</p></a> 
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" style="width:33.33%;">
+                    <div class="single-contact text-center">
+                        <a style="text-decoration: none;" href="https://www.instagram.com/satem_itesm/" target="_blank"><img style="width:75px;" src="images/ig.png" /></a>
+                        <a style="text-decoration: none; color:black;" href="https://www.instagram.com/satem_itesm/" target="_blank"><p style="padding-top:10px;">satem_itesm</p></a>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+
 </body>
-    <script>
+<script>
     $(document).ready(function() {
         $("#inicioimg").css({
-            "height": $(window).height()-60 + "px"
+            "height": $(window).height() + "px"
         });
         $('#irarriba').click(function() {
             $('body, html').animate({
                 scrollTop: '0px'
             }, 300);
         });
-        
+
         if ($(window).width() > 768) {
             $('.sinesp').addClass("espacios");
             $('.sinesp2').addClass("espacios2");
@@ -67,9 +133,9 @@
             $('.sinesp2').removeClass("espacios2");
             $('.imagentam').addClass("logito");
         }
-   
 
-        
+
+
         $(window).scroll(function() {
             if ($(this).scrollTop() > 0) {
                 $('#irarriba').slideDown(300);
@@ -80,6 +146,7 @@
             }
         });
     });
-    
-    </script>
+
+</script>
+
 </html>
