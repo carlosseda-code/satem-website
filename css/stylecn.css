@@ -6,12 +6,12 @@
 .link {
     font-size: 26px;
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 420px){
     .link {
         font-size: 15px;
     }
 }
-@media (min-width: 376px) and (max-width: 768px){
+@media (min-width: 420px) and (max-width: 768px){
     .link {
         font-size: 20px;
     }
