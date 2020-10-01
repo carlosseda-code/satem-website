@@ -45,7 +45,7 @@
 .recursos {
     margin-top: 0;
     background-color: rgb(255, 254, 254, 0.57);
-    padding-bottom: 30px;
+    padding-bottom: 80px !important;
 }
 .navbar-custom {
     background-color: #c0cae3 !important;
